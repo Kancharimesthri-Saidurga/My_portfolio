@@ -1,0 +1,382 @@
+body{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    
+}
+.header{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+
+/* Default size for small screens */
+.logo {
+    width: 25%;
+    height: 25%;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .logo {
+        width: 15%;
+        height: 15%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .logo {
+        width: 15%;
+        height: 15%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .logo {
+        width: 13%;
+        height: 13%;
+    }
+}
+
+/* Extra extra large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .logo {
+        width: 12%;
+        height: 12%;
+    }
+}
+
+.headlist ul li a{
+    color: #51a385;
+    /* font-weight:300;
+    text-decoration: none;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.headlist ul li a:hover{
+    color: #2b5445;
+}
+
+
+
+.mainbody{
+    /* background-color:  #3d1010; */
+    background-color:  #0b1310;
+
+}
+
+.homeblock{
+    margin-top:13rem;
+   
+}
+
+.home h1{
+    color: #51a385;
+    /* color: #2b5445; */
+
+ 
+}
+
+/* ________________________________________________________________________________________- */
+/* Base styles */
+.about h2,
+.about p {
+    color: #51a385;
+    text-align: center;
+
+}
+
+.education h2,
+.education h4,
+.education p {
+    color: #51a385;
+}
+
+.education h5 {
+    color: #556B2F;
+}
+
+.skills h2,
+.skills h3,
+.skills ul li {
+    color: #51a385;
+}
+
+.skills ul li span {
+    color: #556B2F;
+    /* font-weight: bold; */
+}
+
+.projects h2,
+.projects h4,
+.projects ul{
+    color: #51a385;
+
+}
+
+.projects ul li span {
+    color: #556B2F;
+    /* font-weight: bold; */
+}
+
+.internships h2,
+.internships h4,
+.internships ul{
+    color: #51a385;
+
+}
+
+.internships ul li span {
+    color: #556B2F;
+    /* font-weight: bold; */
+}
+
+.contact,
+.contact p{
+    color: #0b1310;
+}
+.contact input,
+.contact button,
+.contact textarea{
+    color: #51a385;
+    background-color: #0b1310;
+}
+
+
+.social a{
+    text-decoration: none;
+    color: #51a385;
+}
+
+.copyright p{
+    text-decoration: none;
+    color: #51a385;
+}
+
+/* _____________________________________________________________________________________________________*/
+
+.spic1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 60%;
+    border-style: none;
+    border-color: #2b5445;
+}
+
+.spic2 {
+    width: 300px;
+    height: 300px;
+}
+
+.spic3 {
+    width: 310px;
+    height: 300px;
+    border-radius: 60%;
+    border-style: none;
+    border-color: #2b5445;
+}
+
+/* .internpic{
+    width: 400px;
+    height: 300px;
+} */
+
+/* Small screens (mobile devices) */
+@media (max-width: 600px) {
+    .spic1,
+    .spic2,
+    .spic3 {
+        width: 80px;
+        height: 80px;
+    }
+    /* .internpic{
+        width: 100px;
+        height: 80px;
+    } */
+
+    .about p,
+    .education h4,
+    .education p,
+    .education h5,
+    .skills h3,
+    .skills ul li,
+    .skills ul li span,
+    .projects h4,
+    .projects ul li,
+    .projects ul li span,
+    .internships h4,
+    .internships ul,
+    .internships ul li span,
+    .contact,
+    .contact button,
+    .copyright p{
+        font-size: 10px;
+    }
+
+    .social a svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+
+
+/* Medium screens (tablets) */
+@media (min-width: 601px) and (max-width: 992px) {
+    .spic1,
+    .spic2,
+    .spic3 {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* .internpic{
+        width: 200px;
+        height: 150px;
+    } */
+
+    .about p,
+    .education h4,
+    .education p,
+    .education h5,
+    .skills h3,
+    .skills ul li,
+    .skills ul li span,
+    .projects h4,
+    .projects ul li,
+    .projects ul li span,
+    .internships h4,
+    .internships ul,
+    .internships ul li span,
+    .contact,
+    .contact button,
+    .copyright p {
+        font-size: 14px;
+    }
+
+    .social a svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 993px) {
+    .spic1,
+    .spic2,
+    .spic3 {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* .internpic{
+        width: 250px;
+        height: 200px;
+    } */
+
+    .about p,
+    .education h4,
+    .education p,
+    .education h5,
+    .skills h3,
+    .skills ul li,
+    .skills ul li span,
+    .projects h4,
+    .projects ul li,
+    .projects ul li span,
+    .internships h4,
+    .internships ul,
+    .internships ul li span,
+    .contact
+    .contact button,
+    .copyright p {
+        font-size: 16px;
+    }
+
+    .social a svg {
+        width: 26px;
+        height: 26px;
+    }
+}
+
+/* ______________________________________________________________________________________________-*/
+
+.mypic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style:double;
+    border-width: 10px;
+    border-color: #2b5445;
+}
+
+.aboutblock{
+    margin-top: 5rem;
+}
+
+/* Medium screens (tablets, small laptops) */
+@media (max-width: 1024px) {
+    .homeblock {
+        top: 10rem;
+        /* left: 1.5rem; */
+    }
+
+    .home h1 {
+        font-size: 2.5rem;
+    }
+
+    .mypic {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* Small screens (large phones, small tablets) */
+@media (max-width: 768px) {
+    .homeblock {
+        margin-top: 5rem;
+        /* margin-left: 1rem; */
+    }
+
+    .home h1 {
+        font-size: 2rem;
+    }
+
+    .mypic {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+/* Extra small screens (phones) */
+@media (max-width: 480px) {
+    .homeblock {
+        top: 3rem;
+        /* left: 0.5rem; */
+    }
+
+    .home h1 {
+        font-size: 1.2rem;
+    }
+
+    .mypic {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+
+
+/* ________________________________________________additional touch_____________________________________________ */
+
+/* .about h2,
+.education h2,
+.skills h2,
+.projects h2,
+.internships h2,
+.contact h2{
+    font-size: ;
+} */
